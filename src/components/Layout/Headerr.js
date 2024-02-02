@@ -12,7 +12,7 @@ const Headerr = (props) => {
           <p>T - Shirts for Men</p>
         </div>
 
-        <HeaderBtn></HeaderBtn>
+        <HeaderBtn onClickBtn={props.onShowCart}></HeaderBtn>
       </header>
 
       <div className={classes["main-image"]}>
